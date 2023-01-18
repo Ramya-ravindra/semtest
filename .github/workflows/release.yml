@@ -26,5 +26,5 @@ jobs:
         run: npm install -g semantic-release @semantic-release/git @semantic-release/changelog -D
       - name: release
         env:
-         GITHUB_TOKEN: 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
+         GITHUB_TOKEN: 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
         run: npx semantic-release
